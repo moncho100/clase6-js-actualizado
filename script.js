@@ -57,8 +57,11 @@ function clickEnProducto(id) {
         htmlAux =
             htmlAux +
             `<div onclick="clickEnProducto(${miArray[i].id})">
-                <h3>${miArray[i].nombre}</h3>            
-                <p>${miArray[i].precio}</p>            
+                <h3>Nombre:${miArray[i].nombre}</h3>
+                <p>Autor: ${miArray[i].autor}</p>
+                <p>Editorial: ${miArray[i].editorial}</p>
+                <p>Genero: ${miArray[i].genero}</p>
+                <p>Precio: ${miArray[i].precio}</p>            
             </div>`;
         }
         document.getElementById('listadoDeProductos').innerHTML = htmlAux;
