@@ -4,10 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <title>Document</title>
 </head>
 <body>
-    <h1>ARRAYS</h1>
+    <h2>Terminar compra</h2>
+    <form id="formulario">
+        Ciudad
+        <input id="ciudad" type="text">
+        Domicilio
+        <input id="domicilio" type="text">
+        numero de telefono
+        <input id="tel" type="number">
+        <input type="submit" value="Enviar">
+    </form>
+    
+        Nombre
+        <input id="nombreusuario" type="text">
+        Apellido
+        <input id="apellidousuario" type="text">
+        <button onclick="ValidarFormulario()">Enviar</button>
+
+        <div id="listadoDeProductos"></div>
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
     <script src="script.js"></script>
 </body>
 </html>
